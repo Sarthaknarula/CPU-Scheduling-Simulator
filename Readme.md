@@ -27,12 +27,14 @@ Input can be given **manually** or via a **file**.
 
 **Each input must contain:**
 
-1. Dispatcher time:  
-
-
-2. For each process:  
-
-
+1. For Dispatcher time:
+     - DISP: <value>
+2. For each process:
+     - ID: <ProcessID>
+     - Arrive: <ArrivalTime>
+     - ExecSize: <BurstTime>
+     - Priority: <Priority>
+     
 ---
 
 ## ⚙️ Dispatcher Rules
@@ -75,27 +77,27 @@ Input can be given **manually** or via a **file**.
 
 ## 🚀 Run
 
-bash
-./CPU_Scheduling_Algorithms
+''' bash
+- ./CPU_Scheduling_Algorithms
 
 ---
 
 ## 🗂️ Output
-Displays timeline for each algorithm:
+- Displays timeline for each algorithm:
 
-When each process starts and finishes
+  - When each process starts and finishes
 
-Which process is running at each timestamp
+  - Which process is running at each timestamp
 
-Computes:
+- Computes for each process:
 
-Turnaround Time for each process
+  - Turnaround Time for each process
 
-Waiting Time for each process
+  - Waiting Time for each process
 
-Average Turnaround Time and Waiting Time for each algorithm
+- Calculates average Turnaround Time and Waiting Time for each algorithm
 
-Results are saved in: dataFileOutput.txt
+- Results are saved in: dataFileOutput.txt
 
 ---
 
