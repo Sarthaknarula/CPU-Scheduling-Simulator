@@ -21,6 +21,17 @@ This is a **C++ program** that simulates multiple **CPU scheduling algorithms** 
 
 ---
 
+## 🧠 Skills & Knowledge Demonstrated
+
+- Strong grasp of **C++ programming**: file handling, standard library (`map`, `vector`, `pair`), and procedural logic.
+- Understanding of **Operating System concepts**: CPU scheduling algorithms, context switching, dispatcher mechanics, preemptive vs non-preemptive scheduling.
+- Use of **fundamental data structures**: maps for process tracking, vectors for storing process details.
+- Application of **process scheduling policies** and real-world constraints like dispatcher overhead and time quantum.
+- File input/output to handle structured data and generate clean reports.
+- Clear, modular code design showcasing ability to structure and document **simulation logic**.
+
+---
+
 ## 📥 Input Format
 
 Input can be given **manually** or via a **file**.
