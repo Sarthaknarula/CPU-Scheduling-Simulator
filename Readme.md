@@ -75,10 +75,16 @@ Input can be given **manually** or via a **file**.
 
 
 
-## 🚀 Run
+## 🚀 Build & Run
 
-''' bash
-- ./CPU_Scheduling_Algorithms
+**Compile:**
+``` bash
+g++ CPU_Scheduling_Algorithms.cpp -o CPU_Scheduling_Algorithms
+```
+**Run:**
+``` bash
+./CPU_Scheduling_Algorithms
+```
 
 ---
 
